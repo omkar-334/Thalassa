@@ -8,15 +8,15 @@ import typing as T
 import decorator
 
 
-if T.TYPE_CHECKING:  # pragma: no cover
-    import geopandas
-    import geoviews
-    import holoviews
-    import numpy
-    import numpy.typing as npt
-    import pandas
-    import shapely
-    import xarray
+# if T.TYPE_CHECKING:  # pragma: no cover
+import geopandas
+import geoviews
+import holoviews
+import numpy
+import numpy.typing as npt
+import pandas
+import shapely
+import xarray
 
 
 logger = logging.getLogger(__name__)
